@@ -45,3 +45,4 @@ EXTERN_C DW STUB_EXPORT yact_A32Call(DW* R) {
         return ((typeofarg1*)p1)(p3);
     }
 }
+EXTERN_C DW STUB_EXPORT yact_FreeLibraryA32(DW* R) { return (DW)FreeLibrary(HMODULE p1); }
